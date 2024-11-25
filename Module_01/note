@@ -4,4 +4,11 @@
 --   Bài 2:    Lộ trình, phương pháp học, cách làm việc với PHP
 --   Bài 3:    Cài đặt công cụ, môi trường cần thiết
 
+**Module 02:    PHP Căn bản**
+
+--   Bài 01:   Hàm kiểm tra thông tin phpinfo();
+--   Bài 02:   Biến, comment, debug trong PHP
+--   Bài 03:   Nối biến trong PHP
+--   Bài 04:   Hằng số
+--   Bài 05:   Kiểu dữ liệu trong PHP
 
