@@ -3,7 +3,8 @@
 2. Tinh giai thừa của 1 số và hiển thị kết quả
 
 3. Kiểm tra một số có phải là số nguyên tố hay không và hiển thị kết quả
-4. In bỏng cửu chương 1
+
+4. In bảng cửu chương 1
 
 5. Vẽ bàn cờ vua
 
