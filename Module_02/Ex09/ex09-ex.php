@@ -1,9 +1,9 @@
 <?php 
 /**Biểu diễn vòng lặp for bằng vòng lặp while */
-$i = 1;// 
-$i = 11;// Biểu thức ngay ban đầu mà sai thì sẽ bỏ qua phần vòng lặp
-while ($i<=5){//   Gán giá trị ban đầu
-     echo 'Vòng lặp thứ: '.$i.'<br>';
+$i = 1;   //   Biểu thức ban đầu đúng thì sẽ không bỏ qua phần vòng lặp
+$i = 11;  //   Biểu thức ngay ban đầu mà sai thì sẽ bỏ qua phần vòng lặp
+while ($i<=5){ //   Gán giá trị ban đầu
+     echo 'Vòng lặp thứ : '.$i.'<br>';
      $i++;//   Xử lý điều kiện thoát vòng lặp
 }
 //   Nếu điều kiện đúng thì nó cứ kiểm tra vòng lặp và nó chạy
