@@ -1,25 +1,26 @@
 <?php
 echo '<pre>';
-echo "Type casting hay ép kiểu dữ liệu";
+echo "Type casting hay Ép kiểu dữ liệu";
 
 //   1.   Kiểu số nguyên INT
-//   PHP tự hiểu và nhận diện biến age là số nguyên(int)
-$intAge = 30; // Int
-$scoreAverage1 = 30.5; // Float
-$scoreAverage2 = "30.5"; // String
-var_dump($intAge); // int(30)
-var_dump($scoreAverage1); // float(30.5)
-var_dump($scoreAverage2); // string(4) "30.5"
+//   PHP tự hiểu và nhận diện biến $intAge là số nguyên(int)
+$intAge = 30;               // Int
+$scoreAverage1 = 30.5;      // Float
+$scoreAverage2 = "30.5";    // String
+var_dump($intAge);          // int(30)
+var_dump($scoreAverage1);   // float(30.5)
+var_dump($scoreAverage2);   // string(4) "30.5"
 
 // Kiểm tra kiểu số nguyên
 $check0 = is_int($intAge);
-var_dump($check0); //bool (true)
+var_dump($check0);                  //bool (true)
 echo '<br>';
-$check1 = is_int($scoreAverage1); // bool (false)
+$check1 = is_int($scoreAverage1);   // bool (false)
 var_dump($check1);
 
-////   Ép các loại kiểu dữ liệu khác sang số nguyên
-//   Ép từ float sang int
+//  Ép các loại kiểu dữ liệu khác sang số nguyên
+
+//  Ép từ float sang int
 $scoreAverage1 = (int) $scoreAverage1;
 var_dump($scoreAverage1); // Int (30)
 
@@ -28,15 +29,16 @@ $scoreAverage2 = (string) $scoreAverage2;
 var_dump($scoreAverage2); // string(4) "30.5"
 echo '<br>';
 
-//   2.   Kiểu Boolean hay Logic
+//  2.   Kiểu Boolean hay Logic
+
 // Khai báo biến
 $trueBool = true;
 $falseBool = false;
 $checkBool = 1;
-$checkBool = (bool) $checkBool; // Nếu không có ép kiểu sẽ ra int
+$checkBool = (bool) $checkBool;     // Nếu không có ép kiểu sẽ ra int
 
-$trueBool = is_bool($checkBool); // true vì là kiểu boolean
-$falseBool = is_bool($intAge); //   False vì đây là kiểu int
+$trueBool = is_bool($checkBool);    // True vì là kiểu boolean
+$falseBool = is_bool($intAge);      // False vì đây là kiểu int
 
 var_dump($checkBool);
 var_dump($trueBool);
@@ -47,7 +49,7 @@ var_dump($falseBool);
 echo '<br>';
 
 //   3.   Kiểu số thực(float)
-// Số thực sử dụng dấu . để ngăn cách phần nguyên với thập phân, không dùng dấu ,
+//   Số thực sử dụng dấu . để ngăn cách phần nguyên với thập phân, không dùng dấu ,
 $float1 = 10.5;
 var_dump($float1);
 
@@ -57,22 +59,22 @@ $soNguyen = (float) $soNguyen; // Int ép sang Float-> 100.0
 var_dump($soNguyen);
 
 // Kiểm tra 1 số có phải số thực hay không ?
-is_float($float1); // true
-is_float($soNguyen); // false
+is_float($float1);      // true
+is_float($soNguyen);    // false
 var_dump(is_float($float1));
 var_dump(is_float($intAge));
 echo '<br>';
 
 //   4.   Kiểu dữ liệu chuỗi(string)
-$message = "Thông báo"; // string(11) "Thông báo"; Là độ dài của chuỗi khi dùng var_dump();
+$message = "Thông báo";     // string(11) "Thông báo"; Là độ dài của chuỗi khi dùng var_dump();
 var_dump($message);
 
 //   Kiểm tra 1 chuỗi có phải string hay không bằng cách sử dụng hàm is_string($ten_bien);
 $checkString = is_string($message);
-var_dump($checkString); // Trả về true vì là string
+var_dump($checkString);     // Trả về true vì là string
 
 // Thử với trường hợp false
-$messageFalse = 11; // Int nên chắc chắn trả về false
+$messageFalse = 11;     // Int nên chắc chắn trả về false
 $checkStringFalse = is_string($messageFalse);
 var_dump($checkStringFalse);
 

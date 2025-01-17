@@ -21,6 +21,7 @@ echo '<br>';
 
 //   Trường hợp 1:
 //   Chuỗi sử dụng dấu nháy đơn
+
 //   Kết luận:
 //   Phải sử dụng dấu . để nối chuỗi,
 //   đặt ở bên ngoài chuỗi sử dụng dấu nháy đơn thì mới
@@ -33,7 +34,8 @@ echo '<br>';
 //   Sửa
 $str = 'Lớp đào tạo lập trình' . $str2;
 
-//   Trường hợp
+
+//   Trường hợp 2:
 //   Chuỗi sử dụng dấu nháy kép
 //   Kết luận:
 //   Nếu nối chuỗi với biến mà dùng dấu nháy "" thì sẽ không cần sử dụng dấu .
@@ -43,18 +45,20 @@ $str = 'Lớp đào tạo lập trình' . $str2;
 //$str = "Lớp đào tạo lập trình  $str2tại Hà Nội" ; // hiểu $str2tại là 1 biến tahy vì $str2
 echo $str;
 echo '<br>';
+
 //   Sửa
 $str = "Lớp đào tạo lập trình {$str2} tại Hà Nội";
 echo $str;
 echo '<br>';
 
+
 //   Nối chuỗi trong HTML
-$url = 'https:://hoangan.net';
+$url = 'https://hoangan.net';
 $imgUrl = 'https://tinyurl.com/mry942x5';
 $htmpOutput =
     '<a href="' . $url . '">
-     <img src="' . $imgUrl . '" width="200">
-</a>';
+          <img src="' . $imgUrl . '" width="200">
+     </a>';
 echo $htmpOutput;
 echo '<br>';
 
