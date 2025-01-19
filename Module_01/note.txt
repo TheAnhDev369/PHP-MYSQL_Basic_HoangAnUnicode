@@ -25,3 +25,5 @@
 --   Bài 17:   Break - Continue - Die -Exit
 --   Bài 18:   Câu lệnh Include, include_once, require, require_once
 --   Bài 19:   Các cú pháp thay thế: Câu lệnh rẽ nhánh, vòng lặp
+--   Bài 20:   Xử lý chuỗi trong PHP (Phần 1)
+--   Bài 21:   Xử lý chuỗi trong PHP (Phần 2)
