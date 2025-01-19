@@ -1,0 +1,27 @@
+**Module 01:   Nhập môn lập trình PHP**
+
+--   Bài 1:    Giới thiệu về ngôn ngữ lập trình PHP
+--   Bài 2:    Lộ trình, phương pháp học, cách làm việc với PHP
+--   Bài 3:    Cài đặt công cụ, môi trường cần thiết
+
+**Module 02:    PHP Căn bản**
+
+--   Bài 01:   Hàm kiểm tra thông tin phpinfo();
+--   Bài 02:   Biến, comment, debug trong PHP
+--   Bài 03:   Nối biến trong PHP
+--   Bài 04:   Hằng số
+--   Bài 05:   Kiểu dữ liệu trong PHP
+--   Bài 06:   Toán tử trong PHP (Part 1)
+--   Bài 07:   Toán tử trong PHP (Part 2)
+--   Bài 08:   Câu lệnh rẽ nhánh trong PHP (if else)
+--   Bài 08:   Câu lệnh rẽ nhánh trong PHP (switch case)
+--   Bài 10:   Vòng lặp trong PHP
+--   Bài 11:   Bài tập vòng lặp for (Phần 1)
+--   Bài 12:   Bài tập vòng lặp for (Phần 2)
+--   Bài 13:   Bài tập vòng lặp for (Phần 3)
+--   Bài 14:   Bài tập vòng lặp for (Phần 4)
+--   Bài 15:   Vòng lặp while
+--   Bài 16:   Vòng lặp Do while
+--   Bài 17:   Break - Continue - Die -Exit
+--   Bài 18:   Câu lệnh Include, include_once, require, require_once
+--   Bài 19:   Các cú pháp thay thế: Câu lệnh rẽ nhánh, vòng lặp
